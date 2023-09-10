@@ -3,6 +3,10 @@
 # CodeMasterSymbols
 A package containing all custom assets for CodeMaster. These are mostly custom [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/#creating-custom-symbols).
 
+
+>**Note:**\
+> Please note that this code of the readme is not adapted for the CodeMaster App. Please check this repo again on the 23rd September out 
+
 ## How to use
 
 ### `NSImage`:
