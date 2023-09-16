@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+#if os(macOS)
 public extension Image {
 
     /// Creates an Image representing a custom SF Symbol
@@ -55,3 +56,4 @@ public extension NSImage {
     // add static properties for your symbols above this line
 
 }
+#endif

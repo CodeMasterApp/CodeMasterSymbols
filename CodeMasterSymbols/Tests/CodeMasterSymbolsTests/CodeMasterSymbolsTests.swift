@@ -3,6 +3,7 @@ import SwiftUI
 import SnapshotTesting
 @testable import CodeMasterSymbols
 
+#if os(macOS)
 final class CodeMasterSymbolsTests: XCTestCase {
     // MARK: - NSImage Tests
 
@@ -124,3 +125,4 @@ final class CodeMasterSymbolsTests: XCTestCase {
         assertSnapshot(matching: view, as: .image(size: view.intrinsicContentSize), record: record)
     }
 }
+#endif
