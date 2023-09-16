@@ -12,7 +12,7 @@ A package containing all custom assets for CodeMaster. These are mostly custom [
 ### `NSImage`:
 
 ```swift
-import CodeEditSymbols
+import CodeMasterSymbols
 
 let nsImage = NSImage.symbol(named: "name_of_the_symbol")
 
@@ -24,7 +24,7 @@ let nsImage1 = NSImage.name_of_the_symbol
 ### `Image`:
 
 ```swift
-import CodeEditSymbols
+import CodeMasterSymbols
 
 let image = Image(symbol: "name_of_the_symbol")
 
