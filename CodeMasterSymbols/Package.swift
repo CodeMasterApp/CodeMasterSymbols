@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "CodeMasterSymbols",
     platforms: [
-        .macOS(.v13) // Ventura: TODO: Update to Sonoma (v.14)
+        .macOS(.v13), // Ventura: TODO: Update to Sonoma (v.14)
+        .iOS(.v16) // Fix build error, added a bunch of #if os(macOS) to not get ios errors.
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -19,7 +20,7 @@ let package = Package(
             name: "SnapshotTesting",
             url: "https://github.com/pointfreeco/swift-snapshot-testing.git",
             from: "1.9.0"
-        ),
+        )
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
