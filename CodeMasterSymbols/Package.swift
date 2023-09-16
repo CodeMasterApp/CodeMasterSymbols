@@ -5,9 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "CodeMasterSymbols",
-//    platforms: [
-//    .macOS(.v14) // Sonoma
-//    ],
+    platforms: [
+        .macOS(.v13) // Ventura: TODO: Update to Sonoma (v.14)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
