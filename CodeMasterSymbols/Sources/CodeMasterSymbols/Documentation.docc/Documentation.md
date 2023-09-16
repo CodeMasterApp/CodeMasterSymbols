@@ -1,13 +1,29 @@
-# ````
+# ``CodeMasterSymbols``
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+A package containing all custom assets for CodeEdit. These are mostly custom [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/#creating-custom-symbols).
 
-## Overview
+## How to use
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+### NSImage:
 
-## Topics
+```swift
+import CodeMasterSymbols
 
-### <!--@START_MENU_TOKEN@-->Group<!--@END_MENU_TOKEN@-->
+let nsImage = NSImage.symbol(named: "name_of_the_symbol")
 
-- <!--@START_MENU_TOKEN@-->``Symbol``<!--@END_MENU_TOKEN@-->
+// or using the static property:
+
+let nsImage1 = NSImage.name_of_the_symbol
+```
+
+### Image:
+
+```swift
+import CodeMasterSymbols
+
+let image = Image(symbol: "name_of_the_symbol")
+
+// or using the static property:
+
+let image1 = Image.name_of_the_symbol
+```
